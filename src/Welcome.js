@@ -1,16 +1,13 @@
-import React, { Component } from 'react'
+//import useEffect here
 
-export default class Welcome extends Component {
+export default function Welcome() {
 
-    //Create method DidMount inside it can print "Welcome Component Did Mount" here...
+    // Create DidMount & WillUnmount with useEffect 
+    // inside it can print "Welcome Component Did Mount" & "Welcome Component Will Unmount"
 
-    //Create method WillUnmount inside it can print "Welcome Component  Will Unmount" here...
-
-    render() {
-        return (
-            <div className="vh-100 bg-warning d-flex justify-content-center align-items-center h1 mb-0">
-                Welcome
-            </div>
-        )
-    }
+    return (
+        <div className="vh-100 bg-warning d-flex justify-content-center align-items-center h1 mb-0">
+            Welcome
+        </div>
+    )
 }
