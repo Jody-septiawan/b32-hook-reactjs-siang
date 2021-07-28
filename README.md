@@ -1,6 +1,8 @@
-## State on function component
+# useState
 
 `useState` is a Hook, and will return the value of the state (in the example above: name) and a function that we can use to change that value (setName). The setName function here is similar to how `this.setState` works.
+
+## State on function component
 
 > File : `src/ExampleForm.js`
 
